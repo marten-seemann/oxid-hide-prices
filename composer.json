@@ -1,0 +1,21 @@
+{
+  "name": "seemannit/hide-prices",
+  "description": "Hide Prices if not logged in.",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop", "hide prices"],
+  "homepage": "https://www.oxid-responsive.com",
+  "license": [ "MIT" ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "seemannit/hideprices"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+        "SeemannIT\\HidePricesModule\\": "../../../source/modules/seemannit/hideprices"
+    }
+  }
+}
